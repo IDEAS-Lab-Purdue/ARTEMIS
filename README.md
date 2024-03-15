@@ -22,14 +22,17 @@ Contains all the python scripts and ipy notebooks used to preprocess the MIMIC d
 - Plots for the 5-Layer MLP: accuracy vs epochs, loss vs epochs, confusion matrix
 
 ## `yale`
-Contains `scripts` and `figs`. Works on the dataset obtained from [Yale](https://www.kaggle.com/datasets/maalona/hospital-triage-and-patient-history-data) (to be referred to here as the Yale Dataset).
+Contains `scripts` and `figs`. Works on the dataset obtained from [Yale School of Medicine](https://www.kaggle.com/datasets/maalona/hospital-triage-and-patient-history-data) (to be referred to here as Y-MED).
 
 ### `scripts`
-Contains all the ipy notebooks used to preprocess the Yale dataset and train the 5-Layer MLP. 
-
-- `ARTEMIS.ipynb`: A Random Forest was also attempted on MIMIC. We also attempted to
+Contains all the ipy notebooks used to preprocess Y-MED and train the 5-Layer MLP.
+-`NN_smote_yale.ipynb` performs synthetic data augmentation of the original Y-MED dataset, along with other data cleaning and normalization.
+- Contains other scripts to evaluate MLP, Gaussian Naive Bayes, SVM, Random Forest, and Ensemble models on the data generated through SMOTE.
+- A acuity level classification accuracy of 74% was achieved with the MLP.
 
 ### `figs`
+- Contains plots for the MLP: confusion matrix, loss vs epochs and accuracy vs epochs.
+- Contains confusion matrix plots for the other models trained on the Y-MED.
 
 ## `models`
 - Contains the Gaussian Naive Bayes model and the MLP model trained on the Yale Dataset.
