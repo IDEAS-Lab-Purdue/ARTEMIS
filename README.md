@@ -19,16 +19,20 @@ Contains all the python scripts and ipy notebooks used to preprocess the MIMIC d
 - `NN_smote_mimic.ipynb`: Performs upsampling of all non-majority classes and then trains the 5-Layer MLP that achieves 59% accuracy.
 
 ### `figs`
-
-## `models`
-- The Random Forest model was too large to upload here
-- The SVM one over one model was not saved either
+- Plots for the 5-Layer MLP: accuracy vs epochs, loss vs epochs, confusion matrix
 
 ## `yale`
+Contains `scripts` and `figs`. Works on the dataset obtained from [Yale](https://www.kaggle.com/datasets/maalona/hospital-triage-and-patient-history-data) (to be referred to here as the Yale Dataset).
 
 ### `scripts`
-Contains all the python scripts and ipy notebooks used to preprocess the MIMIC dataset and train the 5-Layer MLP. 
+Contains all the ipy notebooks used to preprocess the Yale dataset and train the 5-Layer MLP. 
 
 - `ARTEMIS.ipynb`: A Random Forest was also attempted on MIMIC. We also attempted to
 
 ### `figs`
+
+## `models`
+- Contains the Gaussian Naive Bayes model and the MLP model trained on the Yale Dataset.
+- Contains the MLP model trained on the MIMIC dataset in Phase 3 described above in the `mimic` section.
+
+NB. The Random Forest models were too large to upload here. The SVM one over one model was not saved either.
