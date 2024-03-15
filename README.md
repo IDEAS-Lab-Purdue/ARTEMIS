@@ -2,7 +2,7 @@
 IROS 2024 ARTEMIS Codebase
 
 ## `mimic`
-Contains `scripts` and `figs`. Works on the `triage.csv` table from the \href{https://physionet.org/content/mimic-iv-ed/2.2/}{MIMIC-IV-ED database}.
+Contains `scripts` and `figs`. Works on the `triage.csv` table from the \ref{https://physionet.org/content/mimic-iv-ed/2.2/}{MIMIC-IV-ED database}.
 
 ### `scripts`
 Contains all the python scripts and ipy notebooks used to preprocess the MIMIC dataset and train models. 
