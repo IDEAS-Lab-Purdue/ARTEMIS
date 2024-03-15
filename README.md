@@ -39,3 +39,6 @@ Contains all the ipy notebooks used to preprocess Y-MED and train the 5-Layer ML
 - Contains the MLP model trained on the MIMIC dataset in Phase 3 described above in the `mimic` section.
 
 NB. The Random Forest models were too large to upload here. The SVM one over one model was not saved either.
+
+## `GUI`
+- Contains code for the triage display website we created as part of ARTEMIS.
