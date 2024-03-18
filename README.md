@@ -4,20 +4,15 @@ Video: [youtube.com/watch?v=4FU4FRxNwmY](https://www.youtube.com/watch?v=4FU4FRx
 
 site: [hrishikeshvish.github.io/assets/projects/artemis.html](https://hrishikeshvish.github.io/assets/projects/artemis.html)
 
-ArXiv: [arxiv.org/abs/2002.09405](https://arxiv.org/abs/2002.09405)
+ArXiv: [arxiv.org/abs/2309.08865](https://arxiv.org/abs/2309.08865)
 
 If you use the code here please cite this paper:
 
-    @inproceedings{sanchezgonzalez2020learning,
-      title={Learning to Simulate Complex Physics with Graph Networks},
-      author={Alvaro Sanchez-Gonzalez and
-              Jonathan Godwin and
-              Tobias Pfaff and
-              Rex Ying and
-              Jure Leskovec and
-              Peter W. Battaglia},
-      booktitle={International Conference on Machine Learning},
-      year={2020}
+    @article{kotha2023artemis,
+        title={ARTEMIS: AI-driven Robotic Triage Labeling and Emergency Medical Information System},
+        author={Kotha, Sathvika and Viswanath, Hrishikesh and Tiwari, Kshitij and Bera, Aniket},
+        journal={arXiv preprint arXiv:2309.08865},
+        year={2023}
     }
 
 
