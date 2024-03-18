@@ -1,5 +1,30 @@
-# ARTEMIS
-IROS 2024 ARTEMIS Codebase
+# ARTEMIS - AI-driven Robotic Triage Labeling and Emergency Medical Information System
+
+Video: [youtube.com/watch?v=4FU4FRxNwmY](https://www.youtube.com/watch?v=4FU4FRxNwmY)
+
+site: [hrishikeshvish.github.io/assets/projects/artemis.html](https://hrishikeshvish.github.io/assets/projects/artemis.html)
+
+ArXiv: [arxiv.org/abs/2002.09405](https://arxiv.org/abs/2002.09405)
+
+If you use the code here please cite this paper:
+
+    @inproceedings{sanchezgonzalez2020learning,
+      title={Learning to Simulate Complex Physics with Graph Networks},
+      author={Alvaro Sanchez-Gonzalez and
+              Jonathan Godwin and
+              Tobias Pfaff and
+              Rex Ying and
+              Jure Leskovec and
+              Peter W. Battaglia},
+      booktitle={International Conference on Machine Learning},
+      year={2020}
+    }
+
+
+## Example usage: Deploy Champ framework for simulating MCIs in Gazebo
+
+![Earthquake](demos/indoor.gif)
+![Construction](demos/test2.gif)
 
 ## `mimic`
 Contains `scripts` and `figs`. Works on the `triage.csv` table from the [MIMIC-IV-ED database](https://physionet.org/content/mimic-iv-ed/2.2/).
